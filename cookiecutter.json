@@ -1,3 +1,6 @@
 {
-  "repo_name": "Your Project Name"
+  "repo_name": "Your Project Name",
+  "db_user": "Database user",
+  "db_pwd": "Database password",
+  "db_name": "Database name"
 }

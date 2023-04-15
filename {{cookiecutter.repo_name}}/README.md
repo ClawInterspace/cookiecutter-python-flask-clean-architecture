@@ -1,21 +1,32 @@
+# Note
+This is a fork version from microsoft/[cookiecutter-python-flask-clean-architecture](https://github.com/microsoft/cookiecutter-python-flask-clean-architecture)
+
 # Cookiecutter flask clean architecture
 This is a reusable Python Flask template. The project is based on Flask in combination with SQLAlchemy ORM.
 
 Complete list of features the template provides:
-* [Onion architecture](#onion-architecture)
-* [Maintenance window support](#maintenance-window-support)
-* [SQLAlchemy ORM](#sqlalchemy-orm)
-* [Alembic Database migrations](#alembic-database-migrations)
-* [Local postgres database docker support](#local-postgres-database-docker-support)
-* [Tests and test containers integration](#tests-and-test-containers-integration)
-* [Service prefix](#service-prefix)
-* [Dependency injection](#dependency-injection)
-* [Service-repository design pattern](#service-repository-design-pattern)
+- [Note](#note)
+- [Cookiecutter flask clean architecture](#cookiecutter-flask-clean-architecture)
+  - [Getting started](#getting-started)
+    - [Running the application locally](#running-the-application-locally)
+  - [Onion Architecture](#onion-architecture)
+  - [Maintenance window support](#maintenance-window-support)
+    - [Activating maintenance mode](#activating-maintenance-mode)
+    - [Deactivating maintenance mode](#deactivating-maintenance-mode)
+  - [SQLAlchemy ORM](#sqlalchemy-orm)
+  - [Alembic database migrations](#alembic-database-migrations)
+  - [Local postgres database docker support](#local-postgres-database-docker-support)
+  - [Tests and test containers integration](#tests-and-test-containers-integration)
+  - [Service prefix](#service-prefix)
+  - [Dependency injection](#dependency-injection)
+  - [Service repository design pattern](#service-repository-design-pattern)
+    - [Repository example](#repository-example)
+    - [Service example](#service-example)
 
 ## Getting started
 To start a new project, run the following command:
 ```bash
-cookiecutter -c v1 https://github.com/microsoft/cookiecutter-python-flask-clean-architecture
+cookiecutter -c v1 https://github.com/ClawInterspace/cookiecutter-python-flask-clean-architecture.git
 ```
 This will prompt you for some information about your project. The information
 you provide will be used to populate the files in the new project directory.
