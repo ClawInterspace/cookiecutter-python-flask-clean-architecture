@@ -5,10 +5,10 @@ pack:
 
 
 db-create:
-	set PGPASSWORD=$(PWD)&&psql -h localhost -U postgres -c "create database \"{{db_name}}\";"
+	set PGPASSWORD=$(PWD)&&psql -h localhost -U postgres -c "create database \"{{cookiecutter.db_name}}\";"
 
 db-drop:
-	set PGPASSWORD=$(PWD)&&psql -h localhost -U postgres -c "DROP database \"{{db_name}}\";"
+	set PGPASSWORD=$(PWD)&&psql -h localhost -U postgres -c "DROP database \"{{cookiecutter.db_name}}\";"
 
 db-init:
 	@echo data base init
